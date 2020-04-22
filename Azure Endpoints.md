@@ -21,7 +21,7 @@ __Non-Core Resource Providers__
 2. [Microsoft.Cdn](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcdn)
 3. [Microsoft.CognitiveServices](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcognitiveservices)
 4. [Microsoft.ContainerRegistry](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcontainerregistry)
-5. [Microsoft.DataLakeStore](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#datalakestore)
+5. [Microsoft.DataLakeStore](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdatalakestore)
 6. [Microsoft.DBforMySQL](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdbformysql)
 7. [Microsoft.HDInsight](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsofthdinsight)
 8. [Microsoft.KeyVault](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftkeyvault)
