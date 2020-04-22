@@ -144,6 +144,7 @@ Azure has many other RPs that build on the Core RPs. For a full list see [Azure 
 
 | Cloud | Type | Domain |
 | --- | --- | --- |
+| Public |  | *.azurehdinsight.net |
 | China |  | *.azurehdinsight.cn |
 
 ### Microsoft.KeyVault
