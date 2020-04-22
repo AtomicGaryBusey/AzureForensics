@@ -133,6 +133,12 @@ Azure has many other RPs that build on the Core RPs. For a full list see [Azure 
 | Public |  | *.azurecr.io |
 | Government |  | *.azurecr.us |
 
+### Microsoft.DataLakeStore
+
+| Cloud | Type | Domain |
+| --- | --- | --- |
+| Public | Data Lake Store | *.azuredatalakestore.net |
+
 ### Microsoft.DBforMySQL
 
 | Cloud | Type | Domain |
