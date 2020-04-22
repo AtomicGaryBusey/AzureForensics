@@ -439,7 +439,7 @@ This service has been shut down as of November 7, 2018.
 
 | Cloud | Type | Domain |
 | --- | --- | --- |
-| Public |  |  |
+| Public |  | *.visualstudio.com |
 | Government |  |  |
 | Germany |  |  |
 | China |  |  |
