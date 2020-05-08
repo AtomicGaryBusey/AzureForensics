@@ -20,7 +20,7 @@ __Core Resource Providers__
 __Non-Core Resource Providers__
 
 1. [Microsoft.AAD](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftaad)
-2. [Microsoft.Cache/Redis](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcacheredis) <*>
+2. [Microsoft.Cache](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcache) <*>
 2. [Microsoft.Cdn](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcdn) <*>
 3. [Microsoft.CognitiveServices](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcognitiveservices)
 4. [Microsoft.ContainerInstance](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcontainerinstance) <*>
@@ -119,14 +119,14 @@ Azure has many other RPs that build on the Core RPs. For a full list see [Azure 
 | China | Primary | *.login.chinacloudapi.cn |
 | China | Alternate | *.login.partner.microsoftonline.cn |
 
-### Microsoft.Cache/Redis
+### Microsoft.Cache
 
 | Cloud | Type | Domain |
 | --- | --- | --- |
-| Public |  | *.redis.cache.windows.net |
-| Government |  | *.redis.cache.usgovcloudapi.net |
-| Germany |  | *.redis.cache.cloudapi.de |
-| China |  | *.redis.cache.chinacloudapi.cn |
+| Public | Redis | *.redis.cache.windows.net |
+| Government | Redis | *.redis.cache.usgovcloudapi.net |
+| Germany | Redis | *.redis.cache.cloudapi.de |
+| China | Redis | *.redis.cache.chinacloudapi.cn |
 
 ### Microsoft.Cdn
 
