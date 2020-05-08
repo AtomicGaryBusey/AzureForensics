@@ -494,6 +494,10 @@ All source material is located on docs.microsoft.com unless otherwise noted.
 * [IP addresses used by Application Insights and Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses)
 * [Troubleshoot network connections and lists of allowed addresses](https://docs.microsoft.com/en-us/azure/devops/organizations/security/faq-network-connections?view=azure-devops)
 * [Safelist the Azure portal URLs on your firewall or proxy server](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls)
+* [Quickstart: Deploy a container instance in Azure using Azure PowerShell](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-powershell)
+* [Quickstart: Create an Azure Cognitive Search service in the portal](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal)
+* [Azure Cache for Redis FAQ](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-faq)
+* [Microsoft.Cache Redis template reference](https://docs.microsoft.com/en-us/azure/templates/microsoft.cache/2018-03-01/redis)
 
 * NOT docs.microsoft.com: [Full List of Azure Resource Providers](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Resource%20Provider%20List.txt)
 
