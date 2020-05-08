@@ -6,33 +6,38 @@ These may come in handy for forensic analysis, phishing investigations, malware 
 
 For all these endpoints Microsoft maintains publicly-signed SSL certificates in the root which cascade down to all subdomains, so they will all appear to be trusted sites, even when the customer is hosting malicious content.
 
+Endpoints for which the customer can define their own prefix (example: contoso.azurewebsites.net) are denoted with the following mark in the name: <*>
+
 # Table of Contents
 
 __Core Resource Providers__
 
-1. [Microsoft.Compute](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcompute)
-2. [Microsoft.ClassicCompute](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftclassiccompute)
-3. [Microsoft.Network](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftnetwork)
-4. [Microsoft.Storage](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftstorage)
+1. [Microsoft.Compute](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcompute) <*>
+2. [Microsoft.ClassicCompute](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftclassiccompute) <*>
+3. [Microsoft.Network](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftnetwork) <*>
+4. [Microsoft.Storage](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftstorage) <*>
 
 __Non-Core Resource Providers__
 
 1. [Microsoft.AAD](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftaad)
-2. [Microsoft.Cdn](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcdn)
+2. [Microsoft.Cache/Redis](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcacheredis) <*>
+2. [Microsoft.Cdn](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcdn) <*>
 3. [Microsoft.CognitiveServices](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcognitiveservices)
-4. [Microsoft.ContainerRegistry](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcontainerregistry)
-5. [Microsoft.DataLakeStore](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdatalakestore)
-6. [Microsoft.DBforMySQL](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdbformysql)
-7. [Microsoft.HDInsight](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsofthdinsight)
-8. [Microsoft.KeyVault](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftkeyvault)
-9. [Microsoft.Kusto](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftkusto)
-10. [Microsoft.Media](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftmedia)
-11. [Microsoft.Portal](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftportal)
-12. [Microsoft.Resources](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftresources)
-13. [Microsoft.ServiceBus](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftservicebus)
-14. [Microsoft.ServiceFabric](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftservicefabric)
-15. [Microsoft.Sql](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftsql)
-16. [Microsoft.Web](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftweb)
+4. [Microsoft.ContainerInstance](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcontainerinstance) <*>
+5. [Microsoft.ContainerRegistry](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftcontainerregistry) <*>
+6. [Microsoft.DataLakeStore](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdatalakestore)  <*>
+7. [Microsoft.DBforMySQL](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftdbformysql) <*>
+8. [Microsoft.HDInsight](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsofthdinsight)
+9. [Microsoft.KeyVault](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftkeyvault) <*>
+10. [Microsoft.Kusto](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftkusto) <*>
+11. [Microsoft.Media](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftmedia) <*>
+12. [Microsoft.Portal](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftportal)
+13. [Microsoft.Resources](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftresources)
+14. [Microsoft.Search](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftsearch) <*>
+15. [Microsoft.ServiceBus](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftservicebus)
+16. [Microsoft.ServiceFabric](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftservicefabric)
+17. [Microsoft.Sql](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftsql) <*>
+18. [Microsoft.Web](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#microsoftweb) <*>
 
 [API Endpoints](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md#api-endpoints)
 
@@ -114,6 +119,15 @@ Azure has many other RPs that build on the Core RPs. For a full list see [Azure 
 | China | Primary | *.login.chinacloudapi.cn |
 | China | Alternate | *.login.partner.microsoftonline.cn |
 
+### Microsoft.Cache/Redis
+
+| Cloud | Type | Domain |
+| --- | --- | --- |
+| Public |  | *.redis.cache.windows.net |
+| Government |  | *.redis.cache.usgovcloudapi.net |
+| Germany |  | *.redis.cache.cloudapi.de |
+| China |  | *.redis.cache.chinacloudapi.cn |
+
 ### Microsoft.Cdn
 
 | Cloud | Type | Domain |
@@ -126,6 +140,12 @@ Azure has many other RPs that build on the Core RPs. For a full list see [Azure 
 | --- | --- | --- |
 | Public |  | api.projectoxford.ai/face/v1.0 |
 | China |  | api.cognitive.azure.cn/face/v1.0 |
+
+### Microsoft.ContainerInstance
+
+| Cloud | Type | Domain |
+| --- | --- | --- |
+| Public |  | *.azurecontainer.io |
 
 ### Microsoft.ContainerRegistry
 
@@ -200,6 +220,12 @@ Also known as "Azure Data Explorer"
 | Government |  | *.management.usgovcloudapi.net |
 | Germany |  | *.management.microsoftazure.de |
 | China |  | *.management.chinacloudapi.cn |
+
+### Microsoft.Search
+
+| Cloud | Type | Domain |
+| --- | --- | --- |
+| Public |  | *.search.windows.net |
 
 ### Microsoft.ServiceBus
 
