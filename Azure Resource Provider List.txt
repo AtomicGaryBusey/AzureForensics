@@ -1,22 +1,5 @@
 # Current as of 2020-05-07 22:38:00 Pacific
 
-Microsoft.Storage
-Microsoft.Security
-Microsoft.Automation
-Microsoft.Logic
-Microsoft.Web
-Microsoft.Advisor
-Microsoft.AlertsManagement
-Microsoft.KeyVault
-Microsoft.OperationalInsights
-microsoft.insights
-Microsoft.Compute
-Microsoft.Network
-Microsoft.ResourceHealth
-Microsoft.PolicyInsights
-Microsoft.OperationsManagement
-Microsoft.SecurityInsights
-Microsoft.NotificationHubs
 84codes.CloudAMQP
 Conexlink.MyCloudIT
 LiveArena.Broadcast
@@ -25,12 +8,15 @@ Microsoft.AAD
 microsoft.aadiam
 Microsoft.Addons
 Microsoft.ADHybridHealthService
+Microsoft.Advisor
+Microsoft.AlertsManagement
 Microsoft.AnalysisServices
 Microsoft.ApiManagement
 Microsoft.AppConfiguration
 Microsoft.AppPlatform
 Microsoft.Attestation
 Microsoft.Authorization
+Microsoft.Automation
 Microsoft.AVS
 Microsoft.AzureActiveDirectory
 Microsoft.AzureData
@@ -56,6 +42,7 @@ Microsoft.ClassicStorage
 Microsoft.ClassicSubscription
 Microsoft.CognitiveServices
 Microsoft.Commerce
+Microsoft.Compute
 Microsoft.Consumption
 Microsoft.ContainerInstance
 Microsoft.ContainerRegistry
@@ -101,11 +88,14 @@ Microsoft.HybridCompute
 Microsoft.HybridData
 Microsoft.Hydra
 Microsoft.ImportExport
+microsoft.insights
 Microsoft.IoTCentral
 Microsoft.IoTSpaces
+Microsoft.KeyVault
 Microsoft.Kubernetes
 Microsoft.Kusto
 Microsoft.LabServices
+Microsoft.Logic
 Microsoft.MachineLearning
 Microsoft.MachineLearningServices
 Microsoft.Maintenance
@@ -120,9 +110,14 @@ Microsoft.Media
 Microsoft.Migrate
 Microsoft.MixedReality
 Microsoft.NetApp
+Microsoft.Network
+Microsoft.NotificationHubs
 Microsoft.ObjectStore
 Microsoft.OffAzure
+Microsoft.OperationalInsights
+Microsoft.OperationsManagement
 Microsoft.Peering
+Microsoft.PolicyInsights
 Microsoft.Portal
 Microsoft.PowerBI
 Microsoft.PowerBIDedicated
@@ -133,10 +128,13 @@ Microsoft.RecoveryServices
 Microsoft.RedHatOpenShift
 Microsoft.Relay
 Microsoft.ResourceGraph
+Microsoft.ResourceHealth
 Microsoft.Resources
 Microsoft.SaaS
 Microsoft.Scheduler
 Microsoft.Search
+Microsoft.Security
+Microsoft.SecurityInsights
 Microsoft.SerialConsole
 Microsoft.ServiceBus
 Microsoft.ServiceFabric
@@ -147,6 +145,7 @@ Microsoft.SoftwarePlan
 Microsoft.Solutions
 Microsoft.Sql
 Microsoft.SqlVirtualMachine
+Microsoft.Storage
 Microsoft.StorageCache
 Microsoft.StorageSync
 Microsoft.StorSimple
@@ -162,6 +161,7 @@ Microsoft.VMware
 Microsoft.VMwareCloudSimple
 Microsoft.VnfManager
 Microsoft.VSOnline
+Microsoft.Web
 Microsoft.WindowsESU
 Microsoft.WindowsIoT
 Microsoft.WorkloadMonitor
