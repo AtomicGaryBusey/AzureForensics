@@ -41,9 +41,9 @@ When a Run Command Extension execution is submitted via the Azure front door (Po
 2. The Azure Guest Agent on the VM installs the RunCommand application and supporting files to:  /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/
 3. The script uploaded to Storage is downloaded to the VM by the Guest Agent.
 4. The following executables can be used to execute the instructions passed to it (i.e. the shell script script and any supplied arguments.)
-** /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-extension
-** /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-extension-arm64
-** /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-shim is not an executable but is a shell script you can examine to understand exactly how the RC extension application is invoked and how it makes the choice to use the 32-bit or 64-bit binaries.
+* /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-extension
+* /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-extension-arm64
+* /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-shim is not an executable but is a shell script you can examine to understand exactly how the RC extension application is invoked and how it makes the choice to use the 32-bit or 64-bit binaries.
 
 These are the artifacts that contain relevant data for an investigation:
 
@@ -60,7 +60,7 @@ These are the artifacts that contain relevant data for an investigation:
 
 ### Event Logs
 * You'll see log entries for the execution of the Run Command Extension throughout /var/log/syslog, including:
-** Oct 25 19:16:28 vmhostname python3[1103]: 2021-10-25T19:16:28.553583Z INFO ExtHandler [Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER] Executing command: /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-shim enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "VERSION.NUMBER", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "#.#.#.#", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+* Oct 25 19:16:28 vmhostname python3[1103]: 2021-10-25T19:16:28.553583Z INFO ExtHandler [Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER] Executing command: /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/run-command-shim enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "VERSION.NUMBER", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "#.#.#.#", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
 * The Azure Guest Agent writes events to the waagent.log file, found here on disk: /var/log/waagent.log
 
 **CAUTION** If the script contains instructions to delete the files then only the script itself will still be found on disk. However, the script will still contain the deletion commands so you can at least know what was deleted.
