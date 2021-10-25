@@ -19,6 +19,11 @@ I also find it useful to write brief HOW TO documents. These primarily remind me
 ### Windows-Specific Forensic Artifacts
 [FORENSIC ARTIFACTS: Attacker Source IP Identification With IPsec Audit Events](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Attacker%20Source%20IP%20Identification%20With%20IPsec%20Audit%20Events.md)
 
+### Azure Information Summaries for Investigations and Hunting
+[Azure Service Endpoints](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md) - these may help you in your reviews of firewall logs, DNS logs, local browser artifacts, and more to determine the origin of a file, what an application may have been communicating with, or to diff against to identify potential phishing or abuse of lookalike domains.
+
+[Azure Resource Provider List](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Resource%20Provider%20List.txt) - these are good to reference against the [Azure Service Endpoints](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/Azure%20Endpoints.md) file so we can be on the same page about which endpoint corresponds to which Resource Provider in Azure. This is critical because you'll see the Resource Provider full names in most portal.azure.com URLs on your network.
+
 ### Windows Event ID Info
 These are not just a regurgitation of the usual documentation found online. There's actual context here.
 
