@@ -17,11 +17,11 @@ I also find it useful to write brief HOW TO documents. These primarily remind me
 ### Azure-Specific Forensic Artifacts
 [FORENSIC ARTIFACTS: Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Custom%20Script%20Extension%20Use.md)
 
-[FORENSIC ARTIFACTS: Azure Run Command Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md)
+[FORENSIC ARTIFACTS: Azure Run Command Extensions - Azure Portal Artifacts](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md#azure-portal-artifacts)
 
-[FORENSIC ARTIFACTS: Azure Run Command Extensions - Windows VM](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md#Windows-vm-artifacts)
+[FORENSIC ARTIFACTS: Azure Run Command Extensions - Windows VM Artifacts](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md#windows-vm-artifacts)
 
-[FORENSIC ARTIFACTS: Azure Run Command Extensions - Linux VM](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md#linux-vm-artifacts)
+[FORENSIC ARTIFACTS: Azure Run Command Extensions - Linux VM Artifacts](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md#linux-vm-artifacts)
 
 ### Windows-Specific Forensic Artifacts
 [FORENSIC ARTIFACTS: Attacker Source IP Identification With IPsec Audit Events](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Attacker%20Source%20IP%20Identification%20With%20IPsec%20Audit%20Events.md)
