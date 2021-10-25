@@ -56,7 +56,6 @@ These are the artifacts that contain relevant data for an investigation:
 * /var/log/azure/Microsoft.CPlat.Core.RunCommandLinux/CommandExecution.log is the Run Command a runtime log.
 * /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/config/ contains files named #.settings where # matches the extension folder number in Downloads. This is a config file which appears to have base64 encoding of payload source and a certificate thumbprint in it.
 * /var/log/azure/run-command/ contains install and runtime logs for the Run Command app itself.
-* If the Run Command is deleted from the VM via the Azure front door then the Guest Agent will delete the entire /var/lib/waagent/Microsoft.CPlat.Core.RunCommandLinux-VERSION.NUMBER/bin/ directory and all its contents. Since TRIM is in use on VMs in Azure, there is risk that no file data itself will be left behind on disk.
 
 ### Event Logs
 * You'll see log entries for the execution of the Run Command Extension throughout /var/log/syslog, including:
