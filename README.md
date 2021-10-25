@@ -10,17 +10,17 @@ I also find it useful to write brief HOW TO documents. These primarily remind me
 [HOW TO: Deploy Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/HOW%20TO%20-%20Deploy%20Azure%20Custom%20Script%20Extensions.md)
 
 ### Azure-Specific Forensic Artifacts
-[FORENSIC ARTIFACTS: Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS:%20Azure%20Custom%20Script%20Extension%20Use.md)
+[FORENSIC ARTIFACTS: Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Custom%20Script%20Extension%20Use.md)
 
 [FORENSIC ARTIFACTS: Azure Run Command Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Run%20Command%20Extension%20Use.md)
 
 ### Windows-Specific Forensic Artifacts
-[FORENSIC ARTIFACTS: Attacker Source IP Identification With IPsec Audit Events](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS:%20Attacker%20Source%20IP%20Identification%20With%20IPsec%20Audit%20Events.md)
+[FORENSIC ARTIFACTS: Attacker Source IP Identification With IPsec Audit Events](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Attacker%20Source%20IP%20Identification%20With%20IPsec%20Audit%20Events.md)
 
 ### Windows Event ID Info
 These are not just a regurgitation of the usual documentation found online. There's actual context here.
 
-[FORENSIC ARTIFACTS: Windows Event 4653](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS:%20Windows%20Event%204653.md)
+[FORENSIC ARTIFACTS: Windows Event 4653](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Windows%20Event%204653.md)
 
 ### Use of Diverse DFIR Tools
 The DFIR field has a lot of good folks, and a lot of good tools available, but they do tend to be widely scattered and in various states of usefulness. As a result I frequently utilize a plethora of tools for my work, and I am not always aware of all tools that could fulfill a particular need.
