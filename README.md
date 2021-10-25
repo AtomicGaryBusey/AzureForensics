@@ -9,6 +9,8 @@ I also find it useful to write brief HOW TO documents. These primarily remind me
 
 [HOW TO: Deploy Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/HOW%20TO%20-%20Deploy%20Azure%20Custom%20Script%20Extensions.md)
 
+[HOW TO: Deploy Azure Run Command Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/HOW%20TO%20-%20Deploy%20Azure%20Run%20Command%20Extensions.md)
+
 ### Azure-Specific Forensic Artifacts
 [FORENSIC ARTIFACTS: Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS%20-%20Azure%20Custom%20Script%20Extension%20Use.md)
 
