@@ -65,6 +65,6 @@ These are the artifacts that contain relevant data for an investigation:
 
 **CAUTION** If the script contains instructions to delete the files then only the script itself will still be found on disk. However, the script will still contain the deletion commands so you can at least know what was deleted.
 
-**CAUTION** RunCommandExtension.exe runs as SYSTEM and so the PowerShell script and any processes created by it will also be run as SYSTEM.
+**CAUTION** run-command-extension and run-command-shim run as root and so the shell script and any processes created by it will also be run as root.
 
 
