@@ -7,7 +7,7 @@ My scripts usually aren't intended to be copy/pasted and run as-is. They have co
 ### HOW TO Documents
 I also find it useful to write brief HOW TO documents. These primarily remind me how to use things, but I figure they'll also help other folks. I could put these on a blog or something somewhere but that's annoying when they could just all be right here with the scripts. Por que no los dos?
 
-[HOW TO: Deploy Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/HOW%20TO:%20Deploy%20Azure%20Custom%20Script%20Extensions.md)
+[HOW TO: Deploy Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/HOW%20TO%20-%20Deploy%20Azure%20Custom%20Script%20Extensions.md)
 
 ### Azure-Specific Forensic Artifacts
 [FORENSIC ARTIFACTS: Azure Custom Script Extensions](https://github.com/AtomicGaryBusey/AzureForensics/blob/master/FORENSIC%20ARTIFACTS:%20Azure%20Custom%20Script%20Extension%20Use.md)
